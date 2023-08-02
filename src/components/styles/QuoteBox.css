@@ -1,0 +1,56 @@
+.phraseBox {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 600px;
+}
+
+.phraseBox h1 {
+    font-size: 80px;
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+    
+
+    background: linear-gradient(rgb(0, 200, 255),rgb(96, 96, 96));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.phraseInfo {
+    padding: 50px;
+    background-color: rgba(48, 48, 48, 0.788);
+    width: min(100%, 600px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.phraseInfo button {
+    background-color: rgb(123, 123, 123);
+    color: white;
+    font-weight: bold;
+    width: 350px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.phraseInfo button:hover {
+    background-color: rgb(81, 81, 81);
+    transform: scale(1.1, 1.1);
+}
+
+.fountain {
+    padding: 10px;
+    background-color: rgba(48, 48, 48, 0.788);
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}

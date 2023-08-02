@@ -1,0 +1,27 @@
+
+.app {
+  padding: 20px;
+  width: 1024px;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 50px 21px rgb(93, 93, 93);
+  border-radius: 50px;
+  /* transition: 0.2s; */
+}
+
+.bg1 {
+  background-image: url('/images/bg1.jpg');
+}
+
+.bg2 {
+  background-image: url('/images/bg2.jpg');
+}
+
+.bg3 {
+  background-image: url('/images/bg3.jpg');
+}
+
+.bg4 {
+  background-image: url('/images/bg4.jpg');
+}
